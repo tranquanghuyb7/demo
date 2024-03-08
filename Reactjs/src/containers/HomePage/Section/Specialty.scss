@@ -1,0 +1,25 @@
+.slick-arrow.slick-next{
+    align-items: center !important;
+}
+.specialty-child{
+    cursor: pointer;
+
+    .section-specialty{
+        width: 275px !important;
+        border: 1px solid #22c1f1;
+        padding: 20px;
+        border-radius: 25px;
+        // border-radius: 50%;
+        background: #fff;
+        cursor: pointer;
+    }
+
+    .specialty-name{
+        padding: 10px 0;
+        font-size: 17px;
+        font-weight: 600;
+        &:hover{
+            color: #45c3d2;
+        }
+    }
+}

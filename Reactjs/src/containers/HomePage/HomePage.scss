@@ -1,0 +1,205 @@
+.slick-prev{
+    left: -10 !important;
+    z-index: 1000 !important;
+    width: 44px !important;
+    height: 48px !important;
+    background: #fff !important;
+    border: 1px solid rgb(181, 231, 237) !important;
+
+    &:hover{
+        background: rgb(221, 242, 245) !important;
+    }
+}
+
+.slick-prev:before, .slick-next:before{
+    // font-family: FontAwesome !important;
+    color: rgb(134, 235, 247) !important;
+}
+
+.slick-next{
+    // right: -15 !important;
+    margin-right: 5px !important;
+    z-index: 1000 !important;
+    width: 44px !important;
+    height: 48px !important;
+    background: #fff !important;
+    // border: 3px solid #d7d7d7 !important;
+    border: 1px solid rgb(181, 231, 237) !important;
+
+    &:hover{
+        background: rgb(221, 242, 245) !important;
+    }
+}
+.slick-disabled {
+    display: none !important;
+}
+
+.section-share{
+    &.section-specialty{
+        background-color: #f5f5f5;
+    }
+
+    &.section-outstanding-doctor{
+        background-color: #f5f5f5;
+    }
+
+    &.section-about{
+        height: 450px !important;
+        background-image: url('../../assets/about/background-about.png');
+    }
+    
+    .section-body{
+        .section-customize{
+            .bg-image{
+                width: 310px;
+                height: 175px;
+                background-position: center center;
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-color: #eee;
+                
+                &.section-specialty{
+                    // background-image: url('../../assets/specialty/co-xuong-khop.jpg');
+                }
+
+                &.section-medical-facility{
+                    // background-image: url('../../assets/medical-facility/logo-bvcr-moi.jpg');
+                }
+
+                &.section-out-standing-doctor{
+                    // background-image: url('../../assets/out-standing-doctor/logo-menhalth.png');
+                    width: 120px;
+                    height: 120px;
+                    border-radius: 50%;
+                }
+
+                &.section-handbook{
+                    background-image: url('../../assets/handbook/phong-xet-nghiem-y-khoa-c-star.png')
+                }
+            }
+            .section-out-standing-doctor{
+                &:hover{
+                    transform: scale(1.2);
+                    transition: 0.3s;
+                }
+            }
+        }
+    }
+}
+
+.section-share{
+    height: 330px;
+
+    .section-container{
+        margin: 0 120px;
+        display: flex;
+        flex-direction: column;
+
+        .section-header{
+            height: 50px;
+            margin-bottom: 30px;
+            padding-top: 22px;
+
+            .title-section{
+                font-size: 22px;
+                font-weight: 600;
+            }
+
+            .btn-section{
+                float: right;
+                padding: 10px 15px;
+                border: none;
+                outline: none;
+                display: block;
+                background-color: rgb(218, 243, 246);
+                color: rgb(52, 146, 158);
+                border-radius: 16px;
+                font-size: 16px;
+                cursor: pointer;
+                text-transform: uppercase;
+            }
+        }
+    }
+}
+
+.section-outstanding-doctor{
+    .outer-bg{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 10px;
+    }
+
+    .section-customize{
+        padding: 5px;
+
+        .customize-border{
+            border: 1px solid rgb(34, 193, 241);
+            padding: 20px;
+            border-radius: 25px;
+            background: #fff;
+            cursor: pointer;
+            
+            &:hover{
+                color: rgb(34, 193, 241);
+            }
+        }
+    }
+}
+
+.home-footer{
+    text-align: center;
+    padding-top: 8px;
+
+    a{
+        text-decoration: unset;
+    }
+}
+
+.section-about{
+    padding: 0 100px;
+
+    .section-about-header{
+        padding: 20px 10px;
+        font-size: 22px;
+        font-weight: 600;
+    }
+
+    .section-about-content{
+        display: flex;
+        gap: 25px;
+        width: 100%;
+
+        .content-left{
+            width: 50%;
+
+            iframe{
+                border-radius: 20px;
+            }
+        }
+
+        .content-right{
+            width: 50%;
+            display: flex;
+            gap: 10px;
+            .content-right-left, .content-right-right{
+                width: 50%;
+                display: flex;
+                flex-direction: column;
+                gap: 18px;
+                text-align: center;
+
+                .content-child{
+                    height: 70px;
+                    background-color: rgb(255, 255, 255);
+                    border-radius: 14px;
+                    cursor: pointer;
+                    img {
+                        max-width: 330px;
+                        height: 66px;
+                        padding: 10px 0;
+                    }
+                }
+            }
+        }
+    }
+}

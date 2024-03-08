@@ -1,0 +1,117 @@
+{
+
+    "homeheader" : {
+        "speciality" : "Medical specialty",
+        "searchdoctor" : "find a doctor by speciality",
+        "health-facility": "Health facilities",
+        "select-room": "Choose a hospital or clinic",
+        "doctor": "Doctor",
+        "select-doctor": "Choose a good doctor",
+        "fee": "checkup package",
+        "check-health" : "General health check",
+        "support": "Support",
+        "welcome": "Welcome, "
+    },
+    "banner" : {
+        "title1": "CONNECTING PEOPLE TO MEDICAL PLATFORMS",
+        "title2": "COMPREHENSIVE HEALTH CARE",
+        "child1": "medical examination by specialty",
+        "child2": "remote medical examination",
+        "child3": "General examination",
+        "child4": "Medical tests",
+        "child5": "Mental health",
+        "child6": "Dental examination"
+    },
+    "menu": {
+        "admin": {
+            "manage-user": "Users System",
+            "manage-doctor": "Manage doctors",
+            "manage-admin": "Manage admin",
+            "crud": "Create user",
+            "crud-redux": "CRUD doctor",
+            "clinic": "Clinics",
+            "manage-clinic": "Manage clinics",
+            "specialty": "Specialitys",
+            "manage-specialty": "Manage specialitys",
+            "handbook": "Handbook",
+            "manage-handbook": "Manage handbook"
+        },
+        "doctor":{
+            "manage-schedule": "Manage Doctor's schedule",
+            "manage-patient": "Manage Doctor's patient",
+            "manage-infor": "Personal information management"
+        }
+    },
+    "manage-user":{
+        "add": "Add new user",
+        "email": "Email",
+        "password": "Pass word ",
+        "first-name": "First name",
+        "last-name": "Last name",
+        "phone-number": "Phone number",
+        "address": "Address",
+        "gender": "Gender",
+        "position": "Position",
+        "role": "Role",
+        "image": "Avatar",
+        "save": "Save user",
+        "edit": "Edit user"
+    },
+    "homepage":{
+        "outstanding-doctor":"Doctors",
+        "more-infor": "More infor",
+        "speciality-popular": "Popular Specialities"
+    },
+    "manage-schedule":{
+        "title": "Manage doctor's medical examination plans",
+        "Choose-doctor": "Choose doctor",
+        "Choose-date": "Choose date",
+        "save": "save infor"
+    },
+    "patient":{
+        "detail-doctor":{
+            "schedule": "Schedule",
+            "no-schedule": "Doctors do not have appointments during this time, please choose another time",
+            "choose" : "choose ",
+            "book-free": " and book (free)"
+        },
+        "extra-infor-doctor": {
+            "text-address": "Medical examination address",
+            "price": "Examination price: ",
+            "detail": "See details",
+            "payment": "Patients can pay by form: ",
+            "hide-price": "Hide price list"
+        },
+        "booking-modal": {
+            "title": "Information on scheduling medical examinations",
+            "fullName": "Fullname",
+            "phoneNumber": "Phone number",
+            "email": "Email",
+            "address": "Address",
+            "reason": "Medical examination reason",
+            "birthday": "Date of birth",
+            "gender": "Genders",
+            "btnConfirm": "Confirm",
+            "btnCancel": "Cancel",
+            "priceBooking": "Free booking",
+            "price": "Price: "
+        }
+    },
+    "admin":{
+        "manage-doctor":{
+            "title": "Create additional doctor information",
+            "choose-doctor": "Choose doctor",
+            "intro": "Introduction",
+            "add": "Create infor",
+            "save": "save infor",
+            "price": "Price",
+            "payment": "Payment",
+            "province": "Province",
+            "nameClinic": "Clinic's name",
+            "addressClinic": "Clinic's address",
+            "note": "Note",
+            "specialty": "Select specialty",
+            "select-clinic": "Select-Clinic"
+        }
+    }
+}
